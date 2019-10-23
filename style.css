@@ -1,3 +1,47 @@
 body{
-	
+	background-image: url("pattern.png");
+	color: white;
+}
+
+header{
+	text-align: center;
+}
+h1{
+
+	border: 2px dashed yellow;	
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 15px 30px;
+}
+.columns{
+	width: 30%;
+	border: 2px solid white;
+	display: inline-block;
+}
+figure{
+	margin: 1px;
+}
+#wrapper{
+	width:80%;
+	margin: 3em auto;
+	text-align: center;
+}
+figcaption{
+	padding: 8px;
+}
+.thumbnail{
+	width: 100%;
+}
+
+
+
+
+
+footer{
+	text-align: center;
+	border-top: 2px dashed yellow;
+}
+a{
+	color: yellow;
+	text-decoration: underline overline;
 }
